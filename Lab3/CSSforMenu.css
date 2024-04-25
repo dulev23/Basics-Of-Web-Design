@@ -1,0 +1,71 @@
+html{
+    font-family: Arial,serif;
+}
+
+.index {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 800px;
+    position: absolute;
+    top: 35px;
+    background-image: url("navigation-background.jpg");
+    height: 30px;
+}
+
+.services{
+    margin-left: 120px;
+    padding: 4px;
+}
+
+.link{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content1{
+    line-height: 23px;
+    height: 450px;
+    color:#192402;
+    width: 390px;
+    margin-left: 5px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.footer{
+    width: 800px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #81b518;
+    text-align: center;
+    position: absolute;
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.slika{
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slika1{
+    width: 370px;
+    height: 270px;
+    float: right;
+}
+

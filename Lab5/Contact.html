@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Lab5.css">
+</head>
+<body>
+
+    <div class="firstLine">
+        <nav class="navbar">
+            <div class="FinkiPage">
+                <span>Finki</span><span style="color: #4fdb88">Page</span>
+                <ul>
+                    <li><a href="Home.html">Home</a></li><!--
+            --><li><a href="Contact.html" class="current">Contact</a></li><!--
+            --><li><a href="Info.html">Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="Block">
+        <div class="block2">
+            <div class="tekst">
+                <span>Contact Form</span>
+            </div>
+
+        <div class="container1">
+            <div class="floatLeft">
+                <form>
+                    <label for="firstName">First Name <br></label>
+                        <input type="text"
+                               id="firstName"
+                               placeholder="Your name.."
+                        />
+                    <br>
+                    <label for="dob">Date of birth <br></label>
+                        <input type="date"
+                               id="dob"
+                        />
+                    <br>
+                    <label for="country">Country<br></label>
+                        <select id="country">
+                            <option value="Australia">Australia</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="New Zealand">New Zealand</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States">United States</option>
+                        </select>
+                    <br>
+                    <label for="CV">CV</label>
+                        <input type="file"
+                               id="CV"
+                        />
+                </form>
+            </div>
+
+            <div class="floatRight">
+                <form>
+                <label for="lastName">Last Name <br></label>
+                    <input type="text"
+                           id="lastName"
+                           placeholder="Your last name.."
+                    />
+                <br>
+                <label for="subject">Subject <br></label>
+                    <textarea style="height: 130px" id="subject" placeholder="Write something.."></textarea>
+                </form>
+                </div>
+                    <span class="submit">
+                        <input type="submit" value="Submit">
+                    </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

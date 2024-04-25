@@ -1,0 +1,14 @@
+body{
+    margin-right: 32%;
+    margin-top: 0;
+    margin-left: 10%;
+    padding-left: 10px;
+    border-left-style: solid; border-left-color:black;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+footer{
+    text-align: center;
+}

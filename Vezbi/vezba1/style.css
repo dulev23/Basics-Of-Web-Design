@@ -1,0 +1,211 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    background: #00496c;
+}
+
+.container .top{
+    background: url("cover_top.png");
+    width: 770px;
+    height: 45px;
+    display: inline-block;
+}
+
+.container{
+    background: url("cover.png");
+    width: 770px;
+}
+
+aside{
+    background: url("cover.png");
+    width: 770px;
+}
+
+.top header h1{
+    text-indent: -9999px;
+    background: url("game-of-thrones.jpg") no-repeat;
+    width: 268px;
+    height: 71px;
+}
+
+.top header{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.top header h2{
+    text-indent: -9999px;
+    background: url("ice-and-fire.jpg") no-repeat;
+    width: 299px;
+    height: 22px;
+}
+
+.summary{
+    display: flex;
+    width: 290px;
+    float: right;
+    margin-top: -140px;
+    margin-right: 80px;
+}
+
+.summary p:nth-of-type(2){
+    text-align: left;
+    margin-right: -30px;
+    margin-top: -8px;
+    padding:9px;
+    width: 300px;
+    height: 113px;
+    background: url("bookmark.jpg");
+    color: white;
+    font-size: 14px;
+}
+
+.summary p:nth-of-type(2) a{
+    color: white;
+}
+
+.introduction{
+    clear: both;
+}
+
+.introduction p:nth-of-type(1){
+    width: 350px;
+    margin-right: 20px;
+    float: right;
+    margin-top: -50px;
+    font-style: italic;
+}
+.introduction p:nth-of-type(2){
+    width:350px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    clear: both;
+    font-style: italic;
+}
+
+.introduction h3{
+    text-indent: -9999px;
+    background:url("introduction.png") no-repeat;
+    width: 212px;
+    height: 44px;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.about h3{
+    text-indent: -9999px;
+    background:url("about.png") no-repeat;
+    height: 45px;
+    width: 176px;
+    float: right;
+    margin-top: -15px;
+    margin-right: 200px;
+}
+
+.about p{
+    text-align: right;
+    width: 325px;
+    margin-left: 30px;
+    margin-top: 250px;
+    font-style: italic;
+}
+
+.about p:nth-of-type(2){
+    margin-top: -10px;
+    font-style: italic;
+}
+
+#div-introduction{
+    background: url("img_1.jpg") no-repeat 45px 20px;
+    height: 191px;
+}
+
+#div-about{
+    background: url("img_2.jpg") no-repeat 390px 40px;
+}
+
+.people h3{
+    text-indent: -9999px;
+    background: url("people.png") no-repeat;
+    width: 157px;
+    height: 45px;
+    margin-left: 200px;
+    margin-top: 75px;
+}
+
+.people p:nth-of-type(1){
+    width: 340px;
+    float: right;
+    clear: both;
+    margin-top: -60px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.people p:nth-of-type(2), .people2 p:nth-of-type(2){
+    width: 340px;
+    float: right;
+    clear: both;
+    margin-top: -15px;
+    font-size: 15px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+.people2 p:nth-of-type(1){
+    width: 340px;
+    float: right;
+    clear: both;
+    margin-top: -10px;
+    font-size: 15px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+#div-people{
+    background: url("img_3.jpg") no-repeat 35px 35px;
+    height: 240px;
+}
+
+.most-visited h3{
+    text-indent: -9999px;
+    background: url("most-visited.png") no-repeat;
+    width: 145px;
+    height: 33px;
+    margin-left: 50px;
+}
+
+footer{
+    width: 770px;
+    text-align: center;
+    height: 130px;
+    background: url("cover_bot.png") no-repeat;
+    display:inline;
+    float: right;
+    margin-top: 150px;
+}
+
+#div-backstage-links{
+    background: url("notes.jpg");
+    width: 252px;
+    height: 249px;
+}
+
+.backstage {
+    text-indent: -9999px;
+    background: url("backstage.png") no-repeat 10px 20px;
+    height: 42px;
+}
+
+.backstage-links{
+    background: url("cover_bot.png") no-repeat;
+    width: 770px;
+    height: 130px;
+    display: inline-block;
+}
+
+.wrapper {
+    margin-left: 75px;
+}

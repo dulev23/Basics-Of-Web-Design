@@ -1,0 +1,169 @@
+/* Index - FullName */
+/* 213045 - Викторија Тодосиева */
+
+
+/* Good luck */
+/* Со среќа */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../image/content_bg.jpg");
+    height: 1130px;
+    width: 980px;
+    margin: auto;
+}
+#search_box{
+    background: url("../image/search.jpg") no-repeat;
+    height: 50px;
+    width: 980px;
+}
+#searchfield{
+    float: right;
+    padding-right: 200px;
+    background-color: rgba(0, 0, 0, 0 );
+    color: white;
+    margin-top: 15px;
+    border-color: rgba(0, 0, 0, 0 );
+}
+#menu_wrapper{
+    background: url("../image/menu.jpg") no-repeat;
+    height: 60px;
+    width: 980px;
+    margin-top: 150px;
+}
+#menu ul{
+    display: flex;
+    padding: 12px;
+    padding-left: 400px;
+}
+#menu li{
+    flex: 1;
+    list-style: none;
+    border-right: dashed 1px white;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+.section_w950 h1{
+    color: yellow;
+    float: left;
+    clear: both;
+    padding-left: 300px;
+}
+.section_w950 p{
+    color: lightyellow;
+    width: 800px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.section_w450 fl{
+    float: left;
+    clear: both;
+}
+.section_w450 fr{
+    float: right;
+    clear: both;
+    
+}
+.section_w950{
+
+}
+h2{
+    color: yellow;
+}
+.list_01 li{
+    list-style: url("../image/list_icon.png");
+}
+.list_01 a{
+    text-decoration: none;
+    color: saddlebrown;
+}
+/*.section_w450 {
+    background-image: url("../image/image_01.jpg");
+    background-repeat: no-repeat;
+    padding-top: 150px;
+
+}*/
+.section_content p{
+    width: 300px;
+    color: white;
+}
+.section_content a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+fr{
+    float: right;
+    clear: both;
+}
+#footer{
+    background: url("../image/footer_bg.png") no-repeat;
+    height: 61px;
+    width: 980px;
+    padding-left: 200px;
+    padding-bottom: -20px;
+    color: white;
+}
+#footer a{
+    color: white;
+}
+#banner_bar_wrapper{
+    background: url("../image/banner.jpg") no-repeat;
+}
+.section_content>div:first-of-type{
+    background-image: url("../image/image_02.jpg");
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    border-image: url("../image/gallery_img_frame.png");
+}
+.section_content>div:nth-of-type(2){
+    background-image: url("../image/image_03.jpg");
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    border-image: url("../image/gallery_img_frame.png");
+}
+.section_content>div:nth-of-type(3){
+    background-image: url("../image/image_04.jpg");
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    border-image: url("../image/gallery_img_frame.png");
+}
+.section_content>div:nth-of-type(4){
+    background-image: url("../image/image_05.jpg");
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    border-image: url("../image/gallery_img_frame.png");
+}
+.section_content{
+    display: flex;
+}
+.section_content div{
+    flex: 10em 200px;
+    padding: 40px;
+}
+.button_01 a{
+    text-decoration: none;
+    color: yellow;
+    padding-bottom: 20px;
+    background-image: url("../image/read_more.png");
+    height: 37px;
+    width: 130px;
+}
+.cleaner_h30{
+    float: right;
+    clear-after: both;
+}
+.image_wrapper{
+    float: right;
+    clear: both;
+}

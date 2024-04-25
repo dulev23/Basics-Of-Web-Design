@@ -1,0 +1,95 @@
+html{
+    background: url("/vezba2/termin2/termin2/image/content_wrapper.jpg");
+    width: 1500px;
+    margin: 0;
+}
+body{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+    background: url("/vezba2/termin2/termin2/image/content_bg.jpg") no-repeat center;
+}
+
+#search_box{
+    background: url("/vezba2/termin2/termin2/image/search.jpg");
+    padding: 25px;
+}
+#search_box input[type=text]{
+    float: right;
+    margin-right: 130px;
+    margin-top: -5px;
+    background: none;
+    border: none;
+    width: 140px;
+    color: white;
+}
+#search_box input[type=submit]{
+    display: none;
+}
+
+#banner_bar_wrapper{
+    background: url("/vezba2/termin2/termin2/image/banner.jpg") no-repeat;
+    width: 980px;
+    height: 160px;
+}
+#menu_wrapper{
+    background: url("/vezba2/termin2/termin2/image/menu.jpg") no-repeat;
+    margin-top: -16px;
+}
+
+#menu ul{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 400px;
+    padding: 18px;
+    list-style-type: none;
+    /*border-right: solid 1px white;*/
+}
+
+#menu a{
+    padding-right: 20px;
+    text-decoration: none;
+    border-right: solid 1px white;
+}
+
+a.current{
+    color: white;
+    text-decoration: none;
+    border-bottom: dotted;
+}
+
+.section_w950 h1{
+    color: yellow;
+    text-align: center;
+}
+
+.section_one p{
+    text-align: center;
+    color: #ffffcc;
+    margin: 0 40px;
+    line-height: 27px;
+}
+
+.section_w450{
+    background: url("/vezba2/termin2/termin2/image/header_bg.png") no-repeat;
+}
+
+.section_w450 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_w450.fl {
+    width: 380px;
+    order: 1;
+}
+
+.section_w450.fr {
+    width: 380px;
+    order: 2;
+}
+
+.section_w950:last-child {
+    order: 3;
+}
+

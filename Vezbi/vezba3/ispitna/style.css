@@ -1,0 +1,194 @@
+body{
+    width:100%;
+    margin: 0 auto;
+    background: url("main-bg.png");
+}
+
+#header-wrapper{
+    background:url("header-bg.png");
+    margin-top: 10px;
+}
+
+#header #logo{
+    display: inline-block;
+    float: left;
+    margin-left: 12%;
+}
+#header #logo h1{
+    margin-left: 70%;
+}
+
+#header .row #menu{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-right: 12%;
+}
+
+.mobileUI-site-nav ul{
+    display: flex;
+}
+
+.mobileUI-site-nav ul li{
+    list-style-type: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+.current_page_item{
+    background-color: #101214;
+}
+
+.current_page_item a{
+    text-decoration: none;
+    color: white;
+}
+
+.mobileUI-site-nav ul li:nth-of-type(2) a, .mobileUI-site-nav ul li:nth-of-type(3) a, .mobileUI-site-nav ul li:nth-of-type(4) a{
+    text-decoration: none;
+    color: #101214;
+}
+
+#logo h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px Arial, SansSerif;
+    color: black;
+    font-stretch: extra-condensed;
+}
+
+#banner .u section{
+    display: inline-block;
+    float: left;
+    width: 350px;
+    padding-top: 10%;
+    margin-left: -2%;
+}
+
+#banner .u img{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+div#header-wrapper div#banner.grid-layout div.row div.u section h2{
+    text-transform: uppercase;
+    font: 35px Arial,SansSerif;
+    width: 420px;
+}
+
+div#header-wrapper div#banner.grid-layout div.row div.u section p{
+    font: 16px Arial, SansSerif;
+    width: 430px;
+    line-height: 25px;
+}
+
+.button-style1{
+    background-color: #2b8fc4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align:center;
+    text-transform: uppercase;
+    font: 12px Arial, SansSerif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#featured-wrapper #featured-content{
+    background:url("featured-bg.png");
+    margin: 0 auto;
+    width:100%;
+    height: 247px;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u section{
+    width: 300px;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+div#wrapper.grid-layout div#page.row div#content.u section{
+    display: inline-block;
+    background: url("main-bg.png");
+    margin: 0 auto;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u section h2{
+    color: white;
+    font: 20px Arial,SansSerif;
+    text-align: left;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u section p{
+    color: #b5b4b1;
+    float: right;
+    display: inline-block;
+    font: 12px Arial, SansSerif;
+    width: 190px;
+    text-align: justify;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u{
+    width: 1080px;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u:nth-child(1) section{
+    background: url("featured-icon01.png")no-repeat 35px;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u:nth-child(2) section{
+    background: url("featured-icon02.png")no-repeat 35px;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u:nth-child(3) section{
+    background: url("featured-icon03.png")no-repeat 35px;
+}
+
+div#featured-wrapper #featured-content.grid-layout div.row div.u section{
+    text-align: center;
+}
+
+#wrapper{
+    width: 67%;
+    margin: 0 auto;
+}
+
+#wrapper.grid-layout #page.row #content.u section h2.main-title{
+    display: inline-block;
+    color: white;
+    font: 25px Arial, SansSerif;
+}
+
+.image-style1{
+    background: url("pic02.jpg")no-repeat;
+    width: 690px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+}
+
+#wrapper.grid-layout #page.row #content.u section p{
+    display: inline-block;
+    color: grey;
+    line-height: 30px;
+    font: 14px Arial,sans-serif;
+}
+
+#box1{
+    float: right;
+    width: 350px;
+    display: inline-block;
+}
+
+.u section{
+    display: flex;
+    float: right;
+}
+
+.u section:nth-of-type(1) p{
+    width: 690px;
+}

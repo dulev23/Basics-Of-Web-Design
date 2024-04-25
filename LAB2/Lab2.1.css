@@ -1,0 +1,22 @@
+body{
+    margin-right: 25%;
+    margin-top: 0;
+    margin-left: 10%;
+}
+
+div{
+    border-style: dashed; color: black;
+}
+
+pre{
+    color: red;
+}
+
+ol{
+    list-style-type: upper-roman;
+    color:black;
+}
+
+footer{
+    text-align: center;
+}

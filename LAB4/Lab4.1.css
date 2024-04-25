@@ -1,0 +1,254 @@
+html{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+body{
+    position:static;
+}
+.index{
+    padding-left: 8%;
+    padding-top: 20px;
+    padding-right: 8%;
+    position: relative;
+}
+
+.navbar{
+    float:right;
+    padding-top:20px;
+}
+
+.navbar a{
+    padding:25px;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:black;
+}
+
+a.current:link,a.current:visited{
+    color: #66ff67;
+}
+
+.Block{
+    height: 400px;
+    width: 100%;
+    background-color: #000785;
+}
+
+.text{
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-bottom: 6%;
+    font-weight: bold;
+    float: left;
+    font-family: "Georgia",serif;
+    position: absolute;
+}
+
+.text1{
+    font-size: 35px;
+    color: white;
+    float: left;
+    padding-right: 6%;
+}
+
+.text2{
+    font-size: 27px;
+    color: white;
+}
+
+.slika{
+    float: right;
+    width: 420px;
+    height: 380px;
+}
+
+.image{
+    position: relative;
+    float:right;
+    padding-right: 8%;
+}
+
+.Block2{
+    height: 400px;
+    width: 100%;
+    background-color: #00c668;
+}
+
+.pic1{
+    border-radius: 30px;
+    width: 250px;
+    height:160px;
+}
+
+.picture1{
+    float:left;
+    padding-left: 6%;
+    padding-top: 20px;
+}
+
+.txt{
+    position: relative;
+    padding-top: 35px;
+    padding-right: 7%;
+    display: flex;
+}
+
+.txt1{
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.tekst{
+    padding-right: 6%;
+    display: flex;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.tekst1{
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 6%;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+.pic2{
+    border-radius: 30px;
+    width: 250px;
+    height:160px;
+}
+
+.picture2{
+    float:right;
+    padding-right: 9%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.index1{
+    padding-left: 8%;
+    padding-right: 8%;
+    position: relative;
+}
+
+.navbar1{
+    float: right;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    padding:25px;
+}
+
+.secondline{
+    background-color: #64de6f;
+    width: 100%;
+    height:50px;
+}
+
+.Abs{
+    float: left;
+    padding-left: 6%;
+    font-size: 20px;
+    padding-top: 13px;
+    color: white;
+}
+
+.H\/abs{
+    float: right;
+    padding-right: 6%;
+    padding-top: 13px;
+    color: white;
+}
+
+.blok{
+    width: 100%;
+    height:450px;
+    background-color: lightgray;
+}
+
+.company{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.borderbox{
+    border-top: 2px ridge whitesmoke;
+    border-bottom: 2px ridge whitesmoke;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.item{
+    background:white;
+    width: 220px;
+    height:300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.item-image{
+    margin-bottom: 15px;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.itemtxt{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.touch{
+    color: white;
+    position: relative;
+    padding-left: 6%;
+    padding-top:30px;
+    font-size: 35px;
+}
+
+.content{
+    position: relative;
+    padding-left: 6%;
+    font-size: 14px;
+}
+
+.cnt{
+    float: right;
+    position: relative;
+    padding-right: 8%;
+    padding-top: 15px;
+    alignment: right;
+    padding-left: 5px;
+}
+
+.map{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}

@@ -1,0 +1,17 @@
+body{
+    margin-right: 25%;
+    margin-top: 0;
+    margin-left: 10%;
+}
+
+.UL1{
+    list-style: ".";
+}
+
+.OL{
+    list-style-type: lower-alpha;
+}
+
+footer{
+    text-align: center;
+}
